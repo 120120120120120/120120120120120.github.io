@@ -1,0 +1,31 @@
+
+h1 { 
+    color: #c47583; 
+    font-family:'Courier New', Courier, monospace; 
+    font-size: larger
+}
+
+h2 {
+    color: #c47583;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:
+}
+
+h1.title {
+    color:#c47583;
+    font-family: ;
+    font-size: ;
+}
+
+h2.title {
+    color:#c47583;
+    font-family: ;
+    font-size: ;
+}
+
+#something {
+    color:#c47583;
+    font-family: ;
+    font-size: ;
+}
+ note: that's id or whatever
