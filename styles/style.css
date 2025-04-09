@@ -1,0 +1,191 @@
+.navigation-bar {
+    background-color: #f5f2e5;
+    position: sticky;
+    width: 100%;
+    top: 1px;
+}
+
+.butterfly-logo {
+    display: block;
+    padding: inherit;
+    margin:auto;
+    width: 200px;
+}
+
+#title {
+    font-family: 'Cambria', Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #202a33;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 10%;
+}
+
+.lab {
+    font-family:'Courier New', Courier, monospace;
+    font-style: oblique;
+    color: #202a33;
+    font-size: 20px;
+    font-weight:normal;
+    text-align: center;
+    line-height: 0%;
+}
+
+hr {
+    color: #f5f2e5;
+}
+
+.nav {
+    background-color: #f5f2e5;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-button {
+    font-family: 'Cambria', Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    color: #fdfdfd;
+    text-align: center;
+    line-height: 2px;
+    background-color: #93a6a0;
+    border-radius: 10px;
+    padding: 15px;
+    width: 150px;
+}
+
+/* the code above decorates the navigation bar */
+
+#description {
+    font-family: 'Cambria', Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 19px;
+    background-color: #f5f2e5;
+    padding: 25px;
+    padding-left: 40px;
+    padding-right: 40px;
+    scroll-margin-top: 235px;
+}
+
+.description-span {
+    color: #202a33;
+    text-decoration: underline;
+}
+
+/* the code above decorates the description section */
+
+#metamorphosis {
+    scroll-margin-top: 235px;
+}
+
+.metamorphosis-title {
+    font-family: 'Cambria', Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #fdfdfd;
+    text-align: center;
+    align-content: center;
+    line-height: 2px;
+    background-color: #93a6a0;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin-left: 37px;
+}
+
+.metamorphosis-container {
+    background-color: #f5f2e5;
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 0px;
+}
+
+.metamorphosis-img {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.metamorphosis-txt {
+    font-family: 'Cambria', Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    margin-right: 250px;
+}
+
+/* the code above decorates the metamorphosis section */
+/* i didn't put as much details into this section as i wanted to incorporate javascript code into this section */
+
+#species {
+    align-content: center;
+    scroll-margin-top: 235px;
+}
+
+.species-title {
+    font-family: 'Cambria', Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #fdfdfd;
+    text-align: center;
+    line-height: 2px;
+    background-color: #93a6a0;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+}
+
+.species-column {
+    float: left;
+    width: 33.33%;
+  }
+  
+  .species-row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.species-img {
+    width: 450px;
+    display: block;
+    margin: auto;
+}
+
+.species-name {
+    font-family: 'Cambria', Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+    text-align: center;
+    background-color: #f5f2e5;
+    margin: auto;
+}
+
+.species-description {
+    font-family: 'Cambria', Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    background-color: #f5f2e5;
+    padding: 25px;
+}
+
+/* the code above decorates the species section */
+
+#sources {
+    background-color: #f5f2e5;
+    width: 100%;
+}
+
+.sources {
+    background-color: #f5f2e5;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.sources-button {
+    font-family: 'Cambria', Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    color: #fdfdfd;
+    text-align: center;
+    line-height: 2px;
+    background-color: #93a6a0;
+    border-radius: 10px;
+    padding: 15px;
+    width: 215px;
+}
+
+/* the code above decorates the footer/sources section */
